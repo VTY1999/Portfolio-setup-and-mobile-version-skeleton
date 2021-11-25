@@ -22,11 +22,13 @@ h1 {
 }
 
 header {
-  background: #3c3a39;
+  background: #5c5c5c;
   position: absolute;
   width: 423px;
   height: 92px;
-  margin: inherit;
+  margin-top: -9px;
+  margin-left: -9px;
+  display: flex;
 }
 
 h2 {
@@ -57,8 +59,14 @@ h2 {
   position: absolute;
   width: 375px;
   height: 590px;
-  margin: inherit;
   top: 50px;
+  margin-top: -9px;
+  margin-left: -9px;
+  display: flex;
+  background-image: url("illustration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-attachment: flex;
+  background-position: right;
 }
 
 p {
@@ -98,14 +106,6 @@ p {
   margin: 10px;
 }
 
-#img1 {
-  position: absolute;
-  right: 275px;
-  left: 275px;
-  top: 300px;
-  margin: inherit;
-}
-
 #img2 {
   position: absolute;
   width: 18px;
@@ -116,7 +116,14 @@ p {
 
 .bottom {
   position: absolute;
-  margin-top: 480px;
-  margin-left: 45px;
+  margin-top: 445px;
+  margin-left: 2px;
   word-spacing: 30px;
+}
+
+li {
+  display: block;
+  float: left;
+  text-align: left;
+  padding: 20px;
 }

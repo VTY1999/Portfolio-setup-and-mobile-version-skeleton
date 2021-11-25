@@ -14,7 +14,6 @@ Additional description about the project and its features.
 - CSS
 - linters
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
