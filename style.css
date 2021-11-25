@@ -62,10 +62,8 @@ h2 {
   top: 50px;
   margin-top: -9px;
   margin-left: -9px;
-  display: flex;
   background-image: url("illustration-header-mobile.png");
   background-repeat: no-repeat;
-  background-attachment: flex;
   background-position: right;
 }
 
