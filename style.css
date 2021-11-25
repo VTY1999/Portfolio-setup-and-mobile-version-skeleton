@@ -6,7 +6,7 @@
 
 h1 {
   position: static;
-  font-family: serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -32,6 +32,7 @@ header {
 }
 
 h2 {
+  font-family: 'Roboto', sans-serif;
   position: static;
   width: 327px;
   height: 27px;
@@ -68,6 +69,7 @@ h2 {
 }
 
 p {
+  font-family: 'Roboto', sans-serif;
   position: static;
   width: 327px;
   height: 123px;
@@ -114,7 +116,7 @@ p {
 
 .bottom {
   position: absolute;
-  margin-top: 445px;
+  margin-top: 480px;
   margin-left: 2px;
   word-spacing: 30px;
 }
