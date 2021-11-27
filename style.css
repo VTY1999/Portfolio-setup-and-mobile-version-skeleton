@@ -31,7 +31,7 @@ header {
   display: flex;
 }
 
-h2 {
+.pro {
   font-family: 'Roboto', sans-serif;
   position: static;
   width: 327px;
@@ -68,7 +68,7 @@ h2 {
   background-position: right;
 }
 
-p {
+.discription {
   font-family: 'Roboto', sans-serif;
   position: static;
   width: 327px;
@@ -178,8 +178,8 @@ li {
   top: 1px;
   background: url(Img_Placeholder.png);
   flex: none;
-  margin-top: 90px;
-  margin-left: -20px;
+  margin-top: 200px;
+  margin-left: 30px;
 }
 
 .post {
@@ -199,7 +199,7 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -18px;
+  margin-left: 40px;
 }
 
 .support {
@@ -217,7 +217,7 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: -18px;
+  margin-left: 40px;
   margin-top: -20px;
 }
 
@@ -327,8 +327,8 @@ li {
   background-color: #ff6b00;
   transition: solid 0s;
   border-color: transparent;
-  margin-top: 100px;
-  margin-left: -365px;
+  margin-top: -10px;
+  margin-left: 40px;
 }
 
 .img8 {
@@ -340,7 +340,7 @@ li {
   top: 1px;
   flex: none;
   margin-top: 90px;
-  margin-left: -10px;
+  margin-left: 30px;
 }
 
 .post2 {
@@ -461,13 +461,13 @@ li {
   background-color: #ff6b00;
   transition: solid 0s;
   border-color: transparent;
-  margin-top: 129px;
+  margin-top: 153px;
   margin-left: -300px;
   position: static;
 }
 
 .tab {
-  margin-top: -2600px;
+  margin-top: -300px;
   position: absolute;
   width: 400px;
   height: 2500px;
@@ -497,8 +497,8 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -30px;
-  margin-top: 70px;
+  margin-left: 15px;
+  margin-top: 100px;
 }
 
 .support3 {
@@ -516,7 +516,8 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: -30px;
+  margin-left: 10px;
+  margin-top: -40px;
 }
 
 .btn3 {
@@ -533,8 +534,8 @@ li {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-top: -30px;
-  margin-left: -28px;
+  margin-top: 30px;
+  margin-left: 4px;
   font-family: 'Inter', sans-serif;
   color: #fff;
   font-weight: bold;
@@ -554,8 +555,8 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 180px;
-  margin-left: -20px;
+  margin-top: 310px;
+  margin-left: 35px;
 }
 
 .lang {
@@ -568,9 +569,9 @@ li {
   left: 51.77px;
   top: 120px;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
-  margin-left: 40px;
+  margin-left: 50px;
   color: #fff;
 }
 
@@ -591,7 +592,7 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: -350px;
+  margin-top: 136px;
   margin-left: 20px;
 }
 
@@ -611,9 +612,9 @@ li {
   text-align: center;
   color: #fff;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
-  margin-top: 230px;
+  margin-top: 20px;
   margin-left: 10px;
 }
 
@@ -633,7 +634,7 @@ li {
   text-align: center;
   color: #fff;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   margin-left: 60px;
 }
@@ -654,7 +655,7 @@ li {
   text-align: center;
   color: #fff;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   margin-left: 65px;
 }
@@ -675,7 +676,7 @@ li {
   text-align: center;
   color: #fff;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   margin-left: 74px;
 }
@@ -697,7 +698,7 @@ li {
 
 .fw {
   position: static;
-  width: 114px;
+  width: 250px;
   height: 24px;
   left: 1px;
   top: 12px;
@@ -714,7 +715,7 @@ li {
   flex-grow: 0;
   flex-direction: column;
   margin-top: 230px;
-  margin-left: 100px;
+  margin-left: 40px;
 }
 
 .skills {
@@ -735,7 +736,7 @@ li {
   order: 0;
   flex-grow: 0;
   flex-direction: column;
-  margin-top: 450px;
+  margin-top: 350px;
   margin-left: 100px;
 }
 
@@ -753,19 +754,20 @@ li {
   order: 0;
   flex-grow: 0;
   margin-left: 80px;
+  margin-top: 30px;
 }
 
 #star {
   background: #ff6b00;
   width: 1px;
   height: 1px;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(0.5);
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -250px;
+  margin-left: -180px;
   position: absolute;
-  margin-top: 150px;
+  margin-top: 148px;
 }
 
 #box {
@@ -775,9 +777,10 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -250px;
+  margin-left: -200px;
   position: absolute;
   margin-top: 20px;
+  transform: scale(0.5);
 }
 
 #circle {
@@ -788,7 +791,8 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -250px;
+  margin-left: -130px;
   position: absolute;
-  margin-top: 25px;
+  margin-top: 51px;
+  transform: scale(0.5);
 }
