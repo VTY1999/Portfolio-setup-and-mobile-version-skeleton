@@ -156,20 +156,9 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: -20px;
-}
-
-.border {
-  position: inherit;
-  width: 327px;
-  height: 1px;
-  left: 1px;
-  top: 10px;
+  margin-left: 40px;
+  margin-top: 50px;
   border-bottom: 1px solid #212121;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: -20px;
 }
 
 #img7 {
@@ -390,7 +379,7 @@ li {
   font-style: normal;
   line-height: 20px;
   margin-left: -9px;
-  margin-top: -250px;
+  margin-top: -160px;
   float: left;
   color: #fff;
 }
@@ -462,9 +451,9 @@ li {
   background-color: #ff6b00;
   transition: solid 0s;
   border-color: transparent;
-  margin-top: 153px;
-  margin-left: -300px;
-  position: static;
+  margin-top: -75px;
+  margin-left: 30px;
+  position: absolute;
 }
 
 .tab {
@@ -853,4 +842,40 @@ li {
   order: 0;
   flex-grow: 0;
   margin: 1px 12px;
+}
+
+.btn3:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.btn3:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn1:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.btn1:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
