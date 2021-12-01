@@ -109,9 +109,10 @@ p {
 #img2 {
   position: absolute;
   width: 18px;
-  height: 30px;
+  height: 15px;
   left: 400px;
   top: 6px;
+  margin-top: 5px;
 }
 
 .bottom {
