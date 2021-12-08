@@ -1015,14 +1015,13 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  position: static;
+  padding: 0;
   width: 327px;
   height: 130px;
   left: 24px;
   top: 394px;
   flex: none;
-  order: o;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -1030,8 +1029,8 @@ li {
   position: absolute;
   width: 315px;
   height: 216px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -1052,13 +1051,12 @@ li {
   width: 327px;
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  margin-top: -200px;
   display: flex;
   align-items: center;
   color: #979493;
@@ -1075,7 +1073,7 @@ li {
   height: 18px;
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1084,7 +1082,6 @@ li {
   display: flex;
   align-items: center;
   color: #979493;
-  height: 18px;
   width: 327px;
   margin-left: 150px;
   margin-top: 50px;
@@ -1168,11 +1165,14 @@ li {
   top: 0%;
   bottom: 0%;
   margin-top: -419px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .hr-line {
   width: 327px;
+  position: static;
+  margin-top: 90px;
+  margin-left: 150px;
   border: 1px solid #dfe1e6;
   left: 0;
   right: 0;
