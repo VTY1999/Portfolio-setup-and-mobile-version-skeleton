@@ -24,7 +24,7 @@ h1 {
 header {
   background: #3c3a39;
   position: absolute;
-  width: 423px;
+  width: 400px;
   height: 92px;
   margin-top: -30px;
   margin-left: -9px;
@@ -58,7 +58,7 @@ header {
   align-items: flex-start;
   padding: 120px 24px;
   position: absolute;
-  width: 375px;
+  width: 352px;
   height: 590px;
   top: 50px;
   margin-top: -9px;
@@ -103,7 +103,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 10px;
+  margin: 30px;
 }
 
 #img2 {
@@ -112,7 +112,8 @@ header {
   height: 15px;
   left: 400px;
   top: 6px;
-  margin-top: 5px;
+  margin-top: 30px;
+  margin-left: -25px;
 }
 
 .bottom {
@@ -1180,6 +1181,30 @@ li {
 
 #fs-frm {
   margin-top: 300px;
+}
+
+.name {
+  display: none;
+}
+
+.nav-link1 {
+  display: none;
+}
+
+.nav-link2 {
+  display: none;
+}
+
+.nav-link3 {
+  display: none;
+}
+
+#email {
+  display: none;
+}
+
+.btn2 {
+  display: none;
 }
 
 @media only screen and (min-width: 992px) {
