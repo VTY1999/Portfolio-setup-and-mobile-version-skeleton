@@ -1443,6 +1443,24 @@ li {
     float: left;
     margin-top: 23px;
     margin-left: 100px;
+    animation-duration: 3.5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .hd-line-title {
+    transition: all 0.5s ease-out;
   }
 
   .nav-link1 {
@@ -2671,28 +2689,5 @@ li {
     left: 0;
     right: 0;
     top: 0;
-  }
-
-  /* Transitions and Animations */
-
-  .name {
-    animation-duration: 3.5s;
-    animation-name: slidein;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-  .hd-line-title {
-    transition: all 0.5s ease-out;
   }
 }
