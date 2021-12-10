@@ -1237,7 +1237,7 @@ li {
     font-weight: normal;
     font-size: 72px;
     color: #ff6b00;
-    width: 400px;
+    width: 439px;
     height: 160px;
     left: 24px;
     top: 121px;
@@ -1443,6 +1443,24 @@ li {
     float: left;
     margin-top: 23px;
     margin-left: 100px;
+    animation-duration: 3.5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .hd-line-title {
+    transition: all 0.5s ease-out;
   }
 
   .nav-link1 {
