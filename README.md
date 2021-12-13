@@ -17,7 +17,7 @@
 - Open your terminal
 - type git clone git@github.com:VTY1999/Portfolio-setup-and-mobile-version-skeleton.git
 - run the project in your local machine
-- Run the project in you browser using the url link:
+- Run the project in you browser using the url link:https://vty1999.github.io/Portfolio-setup-and-mobile-version-skeleton/
 - Inspect it to check the look in mobile format.
 
 
