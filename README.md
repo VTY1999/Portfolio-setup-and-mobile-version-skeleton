@@ -12,7 +12,17 @@
 - CSS
 - linters
 
-!Screenshot (64).png
+
+## Procedure to clone project
+- Open your terminal
+- type git clone git@github.com:VTY1999/Portfolio-setup-and-mobile-version-skeleton.git
+- run the project in your local machine
+- Run the project in you browser using the url link:
+- Inspect it to check the look in mobile format.
+
+
+![Screenshot (64)](https://user-images.githubusercontent.com/75728472/145841553-7b46f432-6fd1-4f17-ab47-b6b1ebeca428.png)
+
 
 👤 *Verissimo Francis*
 
