@@ -1,17 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio-setup
+# Build a portfolio desktop version pusblished with Github Pages
 
-# Portfolio-setup-and-mobile-version-skeleton
 
-> I built a website for a portfolio setup and a mobile version skeleton.
-
-- ![Screenshot (55)](https://user-images.githubusercontent.com/75728472/145391695-0f25c2be-9b72-4131-b5e0-3019d9eb3d3a.png)
-
-Additional description about the project and its features.
+## Description
+> My Portfolio Setup Project Desktop Version.
+> Portfolio: application deploy
 
 ## Built With
-
-
-
 - CSS
 - linters
 
