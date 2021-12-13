@@ -1548,7 +1548,7 @@ li {
     flex: none;
     margin-top: 1600px;
     margin-left: 93px;
-    border: 2px solid #1c1a19;
+    border: 1px solid #1c1a19;
   }
 
   #grid-container1 {
@@ -1561,7 +1561,7 @@ li {
 
   .btn2 {
     height: 48px;
-    width: 350px;
+    width: 349.5px;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -1572,6 +1572,7 @@ li {
     margin-top: 353px;
     margin-left: 1px;
     position: absolute;
+    display: block;
   }
 
   .btn2:hover {
