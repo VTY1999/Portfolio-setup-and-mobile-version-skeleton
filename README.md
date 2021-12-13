@@ -8,12 +8,17 @@
 > Portfolio: application deploy
 
 ## Built With
+- Html
 - CSS
 - linters
 
-## 🤝 Contributing
+!Screenshot (64).png
 
-Contributions, issues, and feature requests are welcome!
+👤 *Verissimo Francis*
+
+- GitHub: [@githubhandle](https://github.com/VTY1999)
+- Twitter: [@twitterhandle](https://twitter.com/verissimoty?s=09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-verissimo-b5b4521b1/)
 
 Feel free to check the [issues page](../../issues/).
 
