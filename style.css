@@ -1459,6 +1459,10 @@ li {
     }
   }
 
+  #info {
+    transition: all 0.8s ease;
+  }
+
   .hd-line-title {
     transition: all 0.5s ease-out;
   }
@@ -1537,6 +1541,7 @@ li {
     top: 3px;
     margin-left: 1290px;
     margin-top: 21px;
+    display: block;
   }
 
   #tag11 {

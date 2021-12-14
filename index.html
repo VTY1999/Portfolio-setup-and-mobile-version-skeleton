@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8SN0STZZB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C8SN0STZZB');
+</script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio: setup and mobile version skeleton</title>
-
+  <title>Personal Portfolio - Verissimo Francis's Personal Portfolio Website</title>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -14,17 +22,17 @@
   <div id="desktop">
     <nav id="nav-bar">
         <a class="name">Verissimo Francis</a>
-        <a class="nav-link1" href=".head">Portfolio</a>
-        <a class="nav-link2">About</a>
-        <a class="nav-link3">Contact</a>
-      <a href="#"><img id="email" src="Images/union1.png" alt="#"></a>
+        <a class="nav-link1" href="#portfolio-section">Portfolio</a>
+        <a class="nav-link2" href="#about-section">About</a>
+        <a class="nav-link3" href="#contact-section">Contact</a>
+      <a href="#"><img id="email" src="Images/union1.png" alt="mail"></a>
     </nav>
     </div>
     
          <header>
             <a id="logo">Francis</a><br><br>
         <nav class="manu">
-            <img id="img2" src="Images/Union.png" alt="#" class="menu">
+            <img id="img2" src="Images/Union.png" alt="harmburgericon" class="menu">
     </nav>
         </header>
     <section class="headline">
@@ -40,20 +48,18 @@
     <div class="columns-wrapper">
         <div class="columns">
             <ul>
-                <li><a href="#"><img id="img3" src="Images/Vector.png" alt="#"></a></li>
-                <li><a href="#"><img id="img4" src="Images/Group.png" alt="#"></a></li>
-                <li><a href="#"><img id="img5" src="Images/1Vector.png" alt="#"></a></li>
-                <li><a href="#"><img id="img6" src="Images/2Vector.png" alt="#"></a></li>
-                <li><a href="#"><img id="medium" src="Images/medium.png" alt="#"></a></li>
-
-
+                <li><a href="#"><img id="img3" src="Images/Vector.png" alt="Social_Media"></a></li>
+                <li><a href="#"><img id="img4" src="Images/Group.png" alt="Social_Media"></a></li>
+                <li><a href="#"><img id="img5" src="Images/1Vector.png" alt="Social_Media"></a></li>
+                <li><a href="#"><img id="img6" src="Images/2Vector.png" alt="Social_Media"></a></li>
+                <li><a href="#"><img id="medium" src="Images/medium.png" alt="Social_Media"></a></li>
 </ul>
 </div>
 </div>
 </div>
 <section class="grid-container">
     <div class="grid-item1">
-
+<a id="portfolio-section"></a>
  <h3 class="head">My Recent Works</h3>
  <div class="border"></div>
 <div id="img7"></div>
@@ -163,6 +169,7 @@
 </div>
       <section class="tab">
         <div>
+          <a id="about-section"></a>
        <h2 class="about">About me</h2>
        <p class="support3">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
        <button class="btn3" type="button">Get My Resume</button>
@@ -196,7 +203,8 @@
       </ul>
      </section> 
       <footer id="contact-form">
-        <h3 class="info">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+        <a id="contact-section"></a>
+        <h3 class="info" id="info">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayvyyqk" method="post">
             <input type="text" name="name" id="full-name" placeholder="Full name" required maxlength="30">
             <input type="email" name="_replyto" id="email-address" placeholder="Email address" required>
@@ -205,8 +213,7 @@
         <div class="hr-line"></div>
           </form>
         <ul class="form-icon">
-          
-          <li><a href="#"><img src="Images/Social_Media.png" alt="#"></a></li>
+          <li><a href="#"><img src="Images/Social_Media.png" alt="Social_Media"></a></li>
 </ul>
       </footer>
 </body>
