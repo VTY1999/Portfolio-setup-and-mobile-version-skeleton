@@ -10,6 +10,7 @@
 ## Built With
 - Html
 - CSS
+-Javascript
 - linters
 
 
