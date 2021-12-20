@@ -33,7 +33,7 @@ header {
 
 #menu-over {
   background-color: #3c3a39;
-  display: flex;
+  display: none;
   height: 870px;
   width: 398px;
   position: absolute;
