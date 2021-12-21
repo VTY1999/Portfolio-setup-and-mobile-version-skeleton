@@ -31,7 +31,7 @@
     
          <header>
             <a id="logo">Francis</a><br><br>
-        <nav class="manu">
+        <nav class="manu" id="mobileMenu">
             <img id="img2" src="Images/Union.png" alt="harmburgericon" class="menu">
     </nav>
         </header>
@@ -216,5 +216,19 @@
           <li><a href="#"><img src="Images/Social_Media.png" alt="Social_Media"></a></li>
 </ul>
       </footer>
+      <div class="menu-over" id="menu-over">
+        <a href="#" class="closeMenu">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
+        <ul class="mobile-menu" onclick="moblieMenuToogle()">
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+        <div class="hr"></div>
+        <div class="hr1"></div>
+        <div class="hr2"></div>
+    </div>
+      <script src="main.js"></script>
 </body>
 </html>
