@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container" id="blur">
   <div id="desktop">
     <nav id="nav-bar">
         <a class="name">Verissimo Francis</a>
@@ -57,6 +58,10 @@
 </div>
 </div>
 </div>
+
+
+
+
 <section class="grid-container">
     <div class="grid-item1">
 <a id="portfolio-section"></a>
@@ -218,9 +223,8 @@
       </footer>
       <div class="menu-over" id="menu-over">
         <a href="#" class="closeMenu">
-            <i class="fa fa-times" aria-hidden="true"></i>
         </a>
-        <ul class="mobile-menu" onclick="moblieMenuToogle()">
+        <ul class="mobile-menu">
             <li><a href="#portfolio-section">Portfolio</a></li>
             <li><a href="#about-section">About</a></li>
             <li><a href="#contact-form">Contact</a></li>
@@ -229,6 +233,31 @@
         <div class="hr1"></div>
         <div class="hr2"></div>
     </div>
+  </div>
+  <div class="popup">
+    <div>
+      <div>
+        <a href="#" class="closePopUp" onclick="toggle()"></a>
+        <h2 class="Desktop-head">keeping track of hundreds of components</h2>
+        <h3 class="Mobile-head">Multi Post Stories</h3>
+        <ul class="ul">
+          <li class="popuptg">html</li>
+          <li class="popuptg1">Bootstrap</li>
+          <li class="popuptg2">Ruby on rails</li>
+        </ul>
+        <div id="Ten"><img src="Images/popupsnapshot.png" alt="Ten"></div>
+        <div id="Ten-desktop"><img src="Images/Dpopupsnapshot.png" alt="Ten"></div>
+        <p class="Text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+        </p>
+      </div>
+      <div>
+        <button class="see-button" type="button">See Live</button>
+        <button class="source-button" type="button">See Source</button>
+      </div>
+    </div>
+  </div>
       <script src="main.js"></script>
+  
 </body>
 </html>
