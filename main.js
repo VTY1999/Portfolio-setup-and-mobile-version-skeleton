@@ -26,12 +26,21 @@ closeTab.addEventListener('click', () => {
   closeMenu();
 });
 
+const projects = [{
+  name: 'Multi-Post Stories',
+  discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  image: 'Images/Img_Placeholder.png',
+  technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  gitLink: '#',
+  srcLink: '#',
+}];
+
 const blurPop = document.querySelector('#blur');
 const popUp = document.querySelector('.popup');
 const seeProject = document.querySelector('.btn');
 
 function Toogle() {
-  blurPop.style.filter = 'blur(24px)';
+  blurPop.style.filter = 'blur(15px)';
   popUp.style.display = 'block';
 }
 
