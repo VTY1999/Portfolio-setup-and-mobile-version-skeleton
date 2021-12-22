@@ -64,3 +64,10 @@ for (let i = 0; i < seeProjectLinks.length; i += 1) {
 projects.addEventListener('click', () => {
   Toogle();
 });
+
+document.querySelector('form').addEventListener('Submit', (event) => {
+  if (event.target.email.value.match(/[A-Z]/g)) {
+    document.querySelector('span').classList.remove('message');
+    event.preventDefault();
+  }
+});
