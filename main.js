@@ -27,6 +27,7 @@ closeTab.addEventListener('click', () => {
 });
 
 const projects = [{
+  id: 1,
   name: 'Multi-Post Stories',
   discription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   image: 'Images/Img_Placeholder.png',
@@ -59,3 +60,7 @@ for (let i = 0; i < seeProjectLinks.length; i += 1) {
     closePopUp();
   });
 }
+
+projects.addEventListener('click', () => {
+  Toogle();
+});
