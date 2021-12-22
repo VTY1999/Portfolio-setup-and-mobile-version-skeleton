@@ -1,3 +1,14 @@
+.container {
+  position: absolute;
+}
+
+#blur.active {
+  filter: blur(15px);
+  pointer-events: none;
+  user-select: none;
+  display: block;
+}
+
 .flex-container {
   display: flex;
   width: 100px;
@@ -550,6 +561,7 @@ li {
   background-position: right;
   background-image: url(Images/illustration-about-me-mobile.png);
   background-position-y: 400px;
+  margin-left: -5px;
 }
 
 .about {
@@ -607,7 +619,7 @@ li {
   order: 2;
   flex-grow: 0;
   margin-top: 30px;
-  margin-left: 4px;
+  margin-left: 18px;
   font-family: 'Inter', sans-serif;
   color: #fff;
   font-weight: bold;
@@ -1285,7 +1297,241 @@ li {
   display: none;
 }
 
-@media only screen and (min-width: 992px) {
+.popup {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 343px;
+  height: 740px;
+  left: 1px;
+  top: 60px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: -50px;
+}
+
+.closePopUp {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 10px;
+  background-image: url(Images/CancelButton.png);
+  margin-left: 300px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  position: static;
+  width: 270px;
+  height: 36px;
+  left: 1px;
+  top: 94px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: -10px;
+  margin-left: -7px;
+}
+
+.popuptg {
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: static;
+  left: 59.63%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 1px solid #979493;
+  box-sizing: border-box;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 1px 8px;
+}
+
+.popuptg1 {
+  width: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: static;
+  left: 59.63%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 1px solid #979493;
+  box-sizing: border-box;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 1px 8px;
+}
+
+.popuptg2 {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: static;
+  left: 59.63%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 1px solid #979493;
+  box-sizing: border-box;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 1px 8px;
+}
+
+.Mobile-head {
+  position: static;
+  width: 300px;
+  height: 82px;
+  left: 1px;
+  top: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 1px 1px;
+}
+
+.Desktop-head {
+  display: none;
+}
+
+.Text {
+  position: static;
+  width: 311px;
+  height: 220px;
+  left: 1px;
+  top: 1px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 3px 1px;
+}
+
+.see-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  left: 0;
+  top: 4px;
+  color: #fff;
+  background: #ff6b00;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  background-image: url(Images/popupicon1.png);
+  background-repeat: no-repeat;
+  background-position-x: 110px;
+  background-position-y: 12px;
+  margin-top: 670px;
+  margin-left: 13px;
+  border: transparent;
+}
+
+.source-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  left: 0;
+  top: 4px;
+  color: #fff;
+  background: #ff6b00;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  margin-left: 180px;
+  background-image: url(Images/popupicon.png);
+  background-repeat: no-repeat;
+  background-position-x: 120px;
+  background-position-y: 11px;
+  margin-top: 670px;
+  border: transparent;
+}
+
+.source-button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.source-button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.see-button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see-button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+#Ten-desktop {
+  display: none;
+}
+
+#Ten {
+  display: block;
+}
+
+@media only screen and (min-width: 892px) {
+  .container {
+    position: absolute;
+  }
+
+  #blur.active {
+    filter: blur(15px);
+    pointer-events: none;
+    user-select: none;
+    display: block;
+  }
+
   #nav-bar {
     display: block;
     width: 1518px;
@@ -2793,5 +3039,206 @@ li {
 
   #menu-over {
     display: none;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 1156px;
+    height: 631px;
+    bottom: 1px;
+    background: #fff;
+    margin-left: 200px;
+    margin-top: 90px;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .closePopUp {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 10px;
+    background-image: url(Images/CancelButton.png);
+    margin-left: 1100px;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    position: static;
+    width: 270px;
+    height: 36px;
+    left: 0;
+    top: 94px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -10px;
+    margin-left: -7px;
+  }
+
+  .popuptg {
+    width: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: static;
+    left: 59.63%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #979493;
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 1px 8px;
+  }
+
+  .popuptg1 {
+    width: 86px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: static;
+    left: 59.63%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #979493;
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 1px 8px;
+  }
+
+  .popuptg2 {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: static;
+    left: 59.63%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #979493;
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 1px 8px;
+  }
+
+  .Desktop-head {
+    position: static;
+    width: 1056px;
+    height: 70px;
+    left: 1px;
+    top: 1px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 1px 1px;
+    display: block;
+  }
+
+  .Mobile-head {
+    display: none;
+  }
+
+  #Ten {
+    display: none;
+  }
+
+  #Ten-desktop {
+    display: block;
+  }
+
+  .Text {
+    position: static;
+    width: 424px;
+    height: 336px;
+    left: 1px;
+    top: 1px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: -450px;
+    margin-left: 700px;
+  }
+
+  .see-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 0;
+    top: 4px;
+    color: #fff;
+    background: #ff6b00;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    background-image: url(Images/popupicon1.png);
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: 12px;
+    margin-top: 525px;
+    margin-left: 710px;
+  }
+
+  .source-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 0;
+    top: 4px;
+    color: #fff;
+    background: #ff6b00;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    background-image: url(Images/popupicon.png);
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: 11px;
+    margin-top: 525px;
+    margin-left: 900px;
   }
 }
