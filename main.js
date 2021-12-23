@@ -88,3 +88,23 @@ form.addEventListener('submit', (event) => {
 email.addEventListener('click', () => {
   span.classList.add('message');
 });
+
+const fullName = document.getElementById('full-name');
+const enterEmail = document.getElementById('email-address');
+const enterText = document.getElementById('message');
+
+function useLocalStorage() {
+  const contactFormData = {
+    name: fullName.value,
+    email: enterEmail.value,
+    message: enterText.value,
+  };
+  localStorage.setItem('contactFormData', JSON.stringify(contactFormData));
+}
+
+const formInputs = document.querySelectorAll('input , textarea');
+for (let i = 0; i < formInputs.length; i += 1) {
+  formInputs[i].addEventListener('change', () => {
+    useLocalStorage();
+  });
+}
