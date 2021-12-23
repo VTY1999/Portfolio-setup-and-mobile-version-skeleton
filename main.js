@@ -65,9 +65,26 @@ projects.addEventListener('click', () => {
   Toogle();
 });
 
-document.querySelector('form').addEventListener('Submit', (event) => {
-  if (event.target.email.value.match(/[A-Z]/g)) {
-    document.querySelector('span').classList.remove('message');
+const form = document.querySelector('form');
+const email = document.getElementById('email-address');
+const span = document.querySelector('span');
+
+form.addEventListener('submit', (event) => {
+  if (email.validity.valueMissing) {
+    span.innerHTML = 'You need to enter an e-mail address';
     event.preventDefault();
+    span.classList.remove('message');
+  } else if (email.validity.typeMismatch) {
+    span.innerHTML = 'E-mail address needs to be valid (example@org.com)';
+    event.preventDefault();
+    span.classList.remove('message');
+  } else if (email.validity.patternMismatch) {
+    span.innerHTML = 'E-mail address needs to be in lower case';
+    event.preventDefault();
+    span.classList.remove('message');
   }
+});
+
+email.addEventListener('click', () => {
+  span.classList.add('message');
 });

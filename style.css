@@ -1520,13 +1520,6 @@ li {
   display: block;
 }
 
-#button_green {
-  background-color: #18634b;
-  color: white;
-  text-decoration: none;
-  transition: ease-in all 3s;
-}
-
 .message {
   display: none;
 }
