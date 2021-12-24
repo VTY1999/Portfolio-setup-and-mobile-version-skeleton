@@ -4,7 +4,7 @@ const closeTab = document.querySelector('.closeMenu');
 
 function mobileMenuToogle() {
   menuOver.style.width = '398px';
-  menuOver.style.display = 'none';
+  menuOver.style.display = 'block';
 }
 
 function closeMenu() {
