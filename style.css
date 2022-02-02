@@ -47,7 +47,7 @@ header {
   display: none;
   height: 870px;
   width: 398px;
-  position: absolute;
+  position: fixed;
   bottom: 57px;
   z-index: 1;
   top: 0;
@@ -415,6 +415,18 @@ li {
 }
 
 .img8 {
+  background: url(Images/Screenshot\ \(CAS\).png);
+  background-repeat: no-repeat;
+  position: static;
+  width: 328px;
+  height: 400px;
+  top: 1px;
+  flex: none;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+.im8 {
   background: url(Images/Img_Placeholder1.png);
   background-repeat: no-repeat;
   position: static;
@@ -437,7 +449,7 @@ li {
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: #051258;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -455,7 +467,7 @@ li {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #051258;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -474,7 +486,7 @@ li {
   margin-left: -9px;
   margin-top: -160px;
   float: left;
-  color: #fff;
+  color: #051258;
 }
 
 #tag5 {
@@ -487,7 +499,7 @@ li {
   height: 40px;
   left: 1px;
   top: 1px;
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgba(7, 7, 7, 0.24);
   border: 1px transparent;
   box-sizing: border-box;
   flex: none;
@@ -502,11 +514,11 @@ li {
   align-items: center;
   padding: 10px 12px;
   position: static;
-  width: 90px;
+  width: 60px;
   height: 40px;
   left: 1px;
   top: 1px;
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgba(7, 7, 7, 0.24);
   border: 1px transparent;
   box-sizing: border-box;
   flex: none;
@@ -521,11 +533,11 @@ li {
   align-items: center;
   padding: 10px 12px;
   position: static;
-  width: 61px;
+  width: 95px;
   height: 40px;
   left: 1px;
   top: 1px;
-  background-color: rgba(255, 255, 255, 0.24);
+  background-color: rgba(7, 7, 7, 0.24);
   border: 1px transparent;
   box-sizing: border-box;
   flex: none;
@@ -536,7 +548,7 @@ li {
 
 .btn1 {
   height: 48px;
-  width: 329px;
+  width: 83%;
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
@@ -544,9 +556,13 @@ li {
   background-color: #ff6b00;
   transition: solid 0s;
   border-color: transparent;
-  margin-top: -75px;
+  margin-top: -65px;
   margin-left: 30px;
   position: absolute;
+}
+
+.btn1 a {
+  color: #fff;
 }
 
 .tab {
@@ -1877,7 +1893,7 @@ span {
   }
 
   #tag11 {
-    background: url(Images/Img_Placeholder4.png);
+    background: url(Images/Screenshot\ \(CAS\).png);
     position: absolute;
     width: 350px;
     height: 400px;
@@ -1910,6 +1926,10 @@ span {
     margin-left: 1px;
     position: absolute;
     display: block;
+  }
+
+  .btn2 a {
+    color: #fff;
   }
 
   .btn2:hover {
@@ -3248,5 +3268,9 @@ span {
     background-position-y: 11px;
     margin-top: 525px;
     margin-left: 900px;
+  }
+
+  .im8 {
+    display: none;
   }
 }
