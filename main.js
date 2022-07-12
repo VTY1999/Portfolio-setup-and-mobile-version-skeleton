@@ -3,7 +3,7 @@ const mobileMenu = document.querySelector('#mobileMenu');
 const closeTab = document.querySelector('.closeMenu');
 
 function mobileMenuToogle() {
-  menuOver.style.width = '398px';
+  menuOver.style.width = '100%';
   menuOver.style.display = 'block';
 }
 
@@ -15,7 +15,7 @@ mobileMenu.addEventListener('click', () => {
   mobileMenuToogle();
 });
 
-const mobileMenuLinks = document.querySelectorAll('.mobile-menu li a');
+const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
 for (let i = 0; i < mobileMenuLinks.length; i += 1) {
   mobileMenuLinks[i].addEventListener('click', () => {
     closeMenu();
@@ -41,7 +41,7 @@ const popUp = document.querySelector('.popup');
 const seeProject = document.querySelector('.btn');
 
 function Toogle() {
-  blurPop.style.filter = 'blur(15px)';
+  blurPop.style.filter = 'blur(10px)';
   popUp.style.display = 'block';
 }
 
