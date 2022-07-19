@@ -32,7 +32,7 @@ h1 {
   font-weight: normal;
   font-size: 56px;
   color: #00c8ff4b;
-  width: 100%; 
+  width: 100%;
   flex: none;
   flex-grow: 0;
   text-align: start;
@@ -163,7 +163,7 @@ a {
 }
 
 .bottom {
-  margin-top: -200px; 
+  margin-top: -200px;
 }
 
 li {
@@ -206,7 +206,6 @@ li {
   background: url(Images/Img_Placeholder.png);
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .post {
@@ -232,7 +231,7 @@ li {
   align-items: center;
 }
 
-.flex-contain{
+.flex-contain {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -247,7 +246,7 @@ li {
   gap: 7px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  color: #091e42; 
+  color: #091e42;
 }
 
 #tag1 {
@@ -306,7 +305,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   background-position: center;
-  border-radius: 40px; 
+  border-radius: 40px;
 }
 
 .im8 {
@@ -1388,7 +1387,7 @@ li {
   position: absolute;
   width: 135px;
   height: 44px;
-  bottom: 10PX;
+  bottom: 10px;
   color: #fff;
   background: #181678;
   font-size: 17px;
@@ -1410,7 +1409,7 @@ li {
   width: 135px;
   height: 44px;
   left: 180px;
-  bottom: 10PX;
+  bottom: 10px;
   color: #fff;
   background: #181678;
   font-size: 17px;
@@ -1442,7 +1441,7 @@ li {
 }
 
 .see-button:active {
-  background-color:#0e0c47;
+  background-color: #0e0c47;
   color: #f4f1f0;
 }
 
@@ -1472,7 +1471,6 @@ span {
   width: 90%;
 }
 
-
 @media only screen and (min-width: 892px) {
   body {
     box-sizing: border-box;
@@ -1484,7 +1482,7 @@ span {
     list-style: none;
     overflow-x: hidden;
   }
-  
+
   .container {
     position: absolute;
   }
@@ -1514,7 +1512,7 @@ span {
   }
 
   #nav-bar {
-    display: flex; 
+    display: flex;
     position: absolute;
     width: 96%;
     justify-content: space-between;
@@ -1578,7 +1576,7 @@ span {
   }
 
   .bottom {
-    position:static;
+    position: static;
     margin-top: -890px;
     margin-left: 14px;
     width: 20px;
@@ -1594,7 +1592,6 @@ span {
     line-height: 0;
     color: #091e42;
     padding-right: 60%;
-    
   }
 
   .border {
@@ -1758,18 +1755,6 @@ span {
     line-height: 20px;
   }
 
-  #tag11 {
-    background: url(Images/Screenshot\ \(CAS\).png);
-    position: absolute;
-    width: 350px;
-    height: 400px;
-    top: 1px;
-    flex: none;
-    margin-top: 1600px;
-    margin-left: 93px;
-    border: 1px solid #1c1a19;
-  }
-
   #grid-container1 {
     display: grid;
     margin-top: 1600px;
@@ -1815,11 +1800,10 @@ span {
     color: #fefeff;
     display: flex;
     margin-top: -80px;
-    justify-content: center;
     align-items: center;
     text-align: center;
   }
- 
+
   .btn1 {
     height: 48px;
     color: white;
@@ -2451,7 +2435,7 @@ span {
     height: 1395px;
     left: 1px;
     top: 3500px;
-    background: #000000;
+    background: #000;
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(Images/about.png);
@@ -2471,7 +2455,6 @@ span {
     letter-spacing: 0.37px;
     color: #00c8ff4b;
     margin-top: 100px;
-    
   }
 
   .support3 {
@@ -2718,10 +2701,6 @@ span {
   }
 
   hr {
-    display: none;
-  }
-
-  #menu-over {
     display: none;
   }
 
