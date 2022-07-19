@@ -131,7 +131,7 @@ a {
   background-image: url("Images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 350px;
+  background-position-y: 390px;
 }
 
 .discription {
@@ -352,8 +352,8 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
   border-radius: 24px;
+  margin: 1px 8px;
 }
 
 #tag6 {
@@ -363,8 +363,8 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
   border-radius: 24px;
+  margin: 1px 8px;
 }
 
 #tag7 {
@@ -374,8 +374,23 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
+  margin: 1px 8px;
   border-radius: 24px;
+}
+
+.botn {
+  height: 48px;
+  width: 85%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #181678;
+  transition: solid 0s;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-left: 7%;
+  border-radius: 40px;
 }
 
 .btn1 {
@@ -393,8 +408,64 @@ li {
   border-radius: 40px;
 }
 
-.btn1 a {
-  color: #fff;
+.btn2 {
+  height: 48px;
+  width: 85%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #181678;
+  transition: solid 0s;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-left: 7%;
+  border-radius: 40px;
+}
+
+.btn3 {
+  height: 48px;
+  width: 85%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #181678;
+  transition: solid 0s;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-left: 7%;
+  border-radius: 40px;
+}
+
+.btn4 {
+  height: 48px;
+  width: 85%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #181678;
+  transition: solid 0s;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-left: 7%;
+  border-radius: 40px;
+}
+
+.btn5 {
+  height: 48px;
+  width: 85%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #181678;
+  transition: solid 0s;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-left: 7%;
+  border-radius: 40px;
 }
 
 .tab {
@@ -412,6 +483,7 @@ li {
   text-align: center;
   position: static;
   height: 130px;
+  width: 100%;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
@@ -424,7 +496,7 @@ li {
 
 .support3 {
   position: static;
-  width: 327px;
+  width: 90%;
   height: 148px;
   left: 24px;
   top: 223px;
@@ -439,7 +511,7 @@ li {
   margin-top: 40px;
 }
 
-.btn3 {
+.button3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -698,7 +770,7 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
+  margin: 1px 8px;
   border-radius: 24px;
 }
 
@@ -709,7 +781,7 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
+  margin: 1px 8px;
   border-radius: 24px;
 }
 
@@ -720,18 +792,18 @@ li {
   background-color: #02083354;
   border: 1px transparent;
   box-sizing: border-box;
-  margin: 1px 12px;
+  margin: 1px 8px;
   border-radius: 24px;
 }
 
-.btn3:hover {
+.button3:hover {
   background-color: #e3e1ff;
   color: #0800f5;
   border: 1px solid #0e0c47;
   box-sizing: border-box;
 }
 
-.btn3:active {
+.button3:active {
   background-color: #0e0c47;
   color: #f4f1f0;
 }
@@ -756,6 +828,66 @@ li {
 }
 
 .btn1:active {
+  background-color: #0e0c47;
+  color: #f4f1f0;
+}
+
+.botn:hover {
+  background-color: #e3e1ff;
+  color: #0800f5;
+  border: 1px solid #0e0c47;
+  box-sizing: border-box;
+}
+
+.botn:active {
+  background-color: #0e0c47;
+  color: #f4f1f0;
+}
+
+.btn2:hover {
+  background-color: #e3e1ff;
+  color: #0800f5;
+  border: 1px solid #0e0c47;
+  box-sizing: border-box;
+}
+
+.btn2:active {
+  background-color: #0e0c47;
+  color: #f4f1f0;
+}
+
+.btn3:hover {
+  background-color: #e3e1ff;
+  color: #0800f5;
+  border: 1px solid #0e0c47;
+  box-sizing: border-box;
+}
+
+.btn3:active {
+  background-color: #0e0c47;
+  color: #f4f1f0;
+}
+
+.btn4:hover {
+  background-color: #e3e1ff;
+  color: #0800f5;
+  border: 1px solid #0e0c47;
+  box-sizing: border-box;
+}
+
+.btn4:active {
+  background-color: #0e0c47;
+  color: #f4f1f0;
+}
+
+.btn5:hover {
+  background-color: #e3e1ff;
+  color: #0800f5;
+  border: 1px solid #0e0c47;
+  box-sizing: border-box;
+}
+
+.btn5:active {
   background-color: #0e0c47;
   color: #f4f1f0;
 }
@@ -957,7 +1089,7 @@ li {
   margin-right: auto;
 }
 
-.btn4 {
+.button4 {
   display: flex;
   margin-top: 1px;
   margin-left: auto;
@@ -977,14 +1109,14 @@ li {
   border-radius: 40px;
 }
 
-.btn4:hover {
+.button4:hover {
   background-color: #e3e1ff;
   color: #0800f5;
   border: 1px solid #0e0c47;
   box-sizing: border-box;
 }
 
-.btn4:active {
+.button4:active {
   background-color: #0e0c47;
   color: #f4f1f0;
 }
@@ -1043,11 +1175,97 @@ li {
   display: none;
 }
 
-.btn2 {
+.popup {
   display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  left: 1px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.popup {
+.popup1 {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  left: 1px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.popup2 {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  left: 1px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.popup3 {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  left: 1px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.popup4 {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  left: 1px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  margin-top: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.popup5 {
   display: none;
   flex-direction: column;
   align-items: center;
@@ -1139,7 +1357,7 @@ li {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 5px;
   color: #172b4d;
 }
@@ -1170,7 +1388,7 @@ li {
   position: absolute;
   width: 135px;
   height: 44px;
-  bottom: 0;
+  bottom: 10PX;
   color: #fff;
   background: #181678;
   font-size: 17px;
@@ -1192,7 +1410,7 @@ li {
   width: 135px;
   height: 44px;
   left: 180px;
-  bottom: 0;
+  bottom: 10PX;
   color: #fff;
   background: #181678;
   font-size: 17px;
@@ -1232,10 +1450,11 @@ li {
   display: none;
 }
 
-#Ten {
+#Ten img {
   display: block;
-  text-align: center;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .message {
@@ -1617,38 +1836,6 @@ span {
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
-  }
-
-  .btn2 {
-    height: 48px;
-    width: 349.5px;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    background-color: #181678;
-    transition: solid 0s;
-    border-color: transparent;
-    margin-top: 353px;
-    margin-left: 1px;
-    position: absolute;
-    display: block;
-  }
-
-  .btn2 a {
-    color: #fff;
-  }
-
-  .btn2:hover {
-    background-color: #fff5e1;
-    color: #f55800;
-    border: 1px solid #f55800;
-    box-sizing: border-box;
-  }
-
-  .btn2:active {
-    background-color: #e05304;
-    color: #f4f1f0;
   }
 
   #img9 {
@@ -2304,7 +2491,7 @@ span {
     margin-top: 30px;
   }
 
-  .btn3 {
+  .button3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2474,7 +2661,7 @@ span {
     margin-right: auto;
   }
 
-  .btn4 {
+  .button4 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2545,12 +2732,108 @@ span {
     left: 0;
     right: 0;
     top: 1px;
-    width: 1156px;
-    height: 631px;
+    width: 70%;
+    height: 70%;
     bottom: 1px;
     background: #fff;
-    margin-left: 200px;
     margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 30px;
+  }
+
+  .popup1 {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 70%;
+    height: 70%;
+    bottom: 1px;
+    background: #fff;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 30px;
+  }
+
+  .popup2 {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 70%;
+    height: 70%;
+    bottom: 1px;
+    background: #fff;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 30px;
+  }
+
+  .popup3 {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 70%;
+    height: 70%;
+    bottom: 1px;
+    background: #fff;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 30px;
+  }
+
+  .popup4 {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 70%;
+    height: 70%;
+    bottom: 1px;
+    background: #fff;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebecf0;
+    box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 30px;
+  }
+
+  .popup5 {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 1px;
+    width: 70%;
+    height: 70%;
+    bottom: 1px;
+    background: #fff;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #ebecf0;
     box-shadow: 1px 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 30px;
@@ -2558,13 +2841,11 @@ span {
 
   .closePopUp {
     height: 20px;
-    width: 20px;
+    width: 5%;
     position: absolute;
-    left: 1px;
-    right: 1px;
-    top: 10px;
+    right: 0;
+    top: 12px;
     background-image: url(Images/CancelButton.png);
-    margin-left: 1100px;
   }
 
   .ul {
@@ -2673,13 +2954,13 @@ span {
 
   #Ten-desktop {
     display: block;
+    width: 60%;
   }
 
   .Text {
     position: static;
-    width: 424px;
+    width: 40%;
     height: 336px;
-    left: 1px;
     top: 1px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2687,11 +2968,8 @@ span {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-top: -450px;
-    margin-left: 700px;
+    margin-top: -310px;
+    margin-left: 630px;
   }
 
   .see-button {
@@ -2713,8 +2991,8 @@ span {
     background-repeat: no-repeat;
     background-position-x: 110px;
     background-position-y: 12px;
-    margin-top: 525px;
-    margin-left: 710px;
+    margin-top: 345px;
+    margin-left: 650px;
   }
 
   .source-button {
@@ -2736,7 +3014,7 @@ span {
     background-repeat: no-repeat;
     background-position-x: 120px;
     background-position-y: 11px;
-    margin-top: 525px;
-    margin-left: 900px;
+    margin-top: 345px;
+    margin-left: 850px;
   }
 }
